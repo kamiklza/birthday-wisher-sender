@@ -34,8 +34,8 @@ for (index, row) in email_list.iterrows():
             new_letter = letter_template.replace("[NAME]", row.name_)
 
 
-        my_email = "shopisoeasy@gmail.com"
-        my_password = "h0wMuch$"
+        my_email = "xxxxx"
+        my_password = "xxxxxxx"
 
         with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
             connection.starttls()
